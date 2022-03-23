@@ -29,5 +29,6 @@ exports.handle = async (event) => {
         return response
     }catch (err) {
         console.error(err);
+        return err;
     }
 }
